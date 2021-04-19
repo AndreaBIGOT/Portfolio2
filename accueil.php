@@ -1,57 +1,57 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="css/accueil.css" /> <!--changer police-->
-		<link rel="icon" href="media/iconSite.ico" />
-		<meta charset="utf-8">
+		
+		<?php include('head.php'); ?>
+
+		<link rel="stylesheet" href="css/accueil.css" />
+		<link href="media/fonts/fontTemplateSkill.css" rel="stylesheet">
+        <link href="media/fonts/fontTemplateSkill2.css" rel="stylesheet">
+
 		<title>Portfolio Andréa BIGOT </title>
 	</head>
 	<body>
 
-		<!--bloc image présentation-->
-		<div class="bgimg-1">
-			<div class="caption">
-                <span class="border">Andréa BIGOT</span>
-                <p style="margin: auto;">Bienvenue sur mon portfolio</p>
-		  	</div>
-		</div>
+		<!--header-->
+		<?php include('header.php'); ?>
 		
 		
 		<!--menu-->
-        <div style="color: #777;background-color:white;text-align:center;padding:20px 80px;text-align: justify;">
-				<div class="menu">
-					<a href="#moi">    A propos	   </a>
-					<a href="#skill">  Compétences </a>
-                    <a href="#real">   Réalisations</a>
-                    <a href="#service">Services	   </a>
-                    <a href="#contact">Contact	   </a>
-				</div>
-		</div>
+        <?php include('nav.php'); ?>
 
 		<!--bloc  image à propos-->
 		<div class="bgimg-2" id="moi" >
-            <!-- <div style=" background-color: black; font-size: 25px; color: #f7f7f7; font-style: bold; padding: 18px; position: inherit; letter-spacing: 10px; width: 270px; margin: auto; margin-bottom: 20px;">Qui suis-je ?</div> -->
-            <div class="identity">
-                <div class="left">
-                    <p>Je m’appelle Andréa BIGOT et je suis actuellement en première année de BTS SIO (Services Informatiques aux Organisation). L’informatique est un domaine très vaste qui m’intrigue énormément. C’est pourquoi j’ai choisi cette formation qui me permettra d’acquérir des compétences et savoir-faire solides afin de réaliser mes projets professionnels et personnels.</p>
-                </div>
-                <div class="right">
-                    <img src="media/logoSite3.png" alt="">
-                    <ul>
-                        <li> <h1> Andréa BIGOT </h1> </li>
-						<a href="www.linkedin.com/in/andréa-bigot-10725a1b6"> <li>LinkedIn </li> </a>
-						<a href="https://github.com/AndreaBIGOT">			  <li> Github  </li> </a>
-						<a href="#"> 										  <li>Fiverr   </li> </a>
-						<li> <a href="media/CV.pdf"><input type="submit" value="Voir mon CV" class="bu3tton"> </a> </li><!--CV-->
-						<li> <a href=""><input type="submit" value="Voir mes veilles technologiques" class="bu3tton"> </a> </li><!--VEILLES TECHNO-->
-						<li> <a href=""><input type="submit" value="Voir mes veilles juridiques" class="bu3tton"> </a> </li><!--VEILLES JURIDIQUES-->
-                    </ul>
-                </div>
-			</div>
 		
 			<div id="scrollTop">
 				<a href="#top"> <img src="media/top2.png" alt="Haut de page" title="Haut de page"> </a>
+			</div> 
+			<div class="identity">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="card">
+							<div class="card-body">
+								<p class="card-text">Je m’appelle Andréa BIGOT et je suis actuellement en deuxième année de BTS SIO (Services Informatiques aux Organisation). 
+									L’informatique est un domaine très vaste qui m’intrigue énormément. 
+									C’est pourquoi j’ai choisi cette formation qui me permettra d’acquérir des compétences et savoir-faire solides afin de réaliser mes projets professionnels et personnels.</p>
+								
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="card">
+							<div class="card-body">
+								<h5 class="card-title"><img src="media/logoSite3.png" alt="logo" class="col col-md col-sm"></h5>
+								<ul class="list-group">
+									<li class="list-group-item"><h1 class="col col-md col-sm"> Andréa BIGOT </h1></li>
+									<li class="list-group-item"><a href="www.linkedin.com/in/andréa-bigot-10725a1b6">LinkedIn</a></li>
+									<li class="list-group-item"><a href="https://github.com/AndreaBIGOT">Github</a></li>
+									<li class="list-group-item"><a href="#">Fiverr</a></li> 
+									<li class="list-group-item"><a href="media/CV.pdf"><input type="submit" value="Voir mon CV" class="btn btn-outline-primary"></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		
@@ -59,56 +59,76 @@
 		<!--bloc image compétences-->
 		<div class="bgimg-3" id="skill">
 			<div class="caption">
-		    	<span class="border" style="font-size: 36px; color: #f7f7f7;">Mes compétences</span>
+		    	<span class="border competences" style="font-size: 36px; color: #f7f7f7;">Mes compétences</span>
 			</div>
 		</div>
 
 			<div style="position:relative;">
-				<div style="color:#ddd;background-color:rgb(239, 239, 239);padding:50px 80px;text-align: justify;" class="competence">
-					
-					<table>
-						<tr>
-							<th>JAVA</th>
-							<th>MySQL</th>
-							<th>HTML</th>
-							<th>CSS</th>
-							<th>PHP</th>
-						</tr>
-						<tr>
-							<td>Responsive design</td>
-							<td>Validation W3C </td>
-							<td>Photoshop</td>
-							<td>Visual Studio Code</td>
-							<td>Android Studio</td>
-						</tr>
-						<tr>
-							<td>Anglais: niveau B2</td>
-							<td>Français: langue maternelle</td>
-							<td>Espagnol: les bases</td>
-							<td>Créole réunionnais: langue maternelle</td>
-						</tr>
-						<tr>
-							<td>A l'écoute</td>
-							<td>Motivée</td>
-							<td>Travailleuse</td>
-							<td>Perfectionniste</td>
-						</tr>
+				<div id="about" class="competence">
+				
 
-					</table>
+					<div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                        <div class="icon">
+                            <img src="media/prog.png" alt="programmation">
+                        </div>
+                        <h4>Programmation</h4>
+                        <div class="line-dec"></div>
+                        <p style="font-size: 16px;"> JAVA <br>PHP <br>MySQL <br>HTML<br> CSS <br>Twig</p> 
+                        
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                        <div class="icon">
+                            <img src="media/tool1.png" alt="outil">
+                        </div>
+                        <h4>Outils</h4>
+                        <div class="line-dec"></div>
+                        <p style="font-size: 16px;">Symfony <br>Responsive design <br> Photoshop <br> Visual Studio Code  <br>  Android Studio <br> Validation W3C <br> API REST</p> 
+                        
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                        <div class="icon">
+                            <img src="media/langue.png" alt="langue" style="width: 60px;">
+                        </div>
+                        <h4>Langues</h4>
+                        <div class="line-dec"></div>
+                        <p style="font-size: 16px;">Anglais: niveau B2  <br>  Français: langue maternelle <br>  Espagnol: les bases  <br> Créole réunionnais: langue maternelle</p>
+                        
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                        <div class="icon">
+                            <img src="media/woman.png" alt="woman" style="width: 60px;">
+                        </div>
+                        <h4>Qualités</h4>
+                        <div class="line-dec"></div>
+                        <p style="font-size: 16px;">A l'écoute   <br> Perfectionniste  <br>  Motivée <br>  Travailleuse</p>  
+                    </div>
+                </div>
+            </div>
+        </div>
+
 			  </div>
 			</div>
 
 		<!--bloc image réalisations-->
 		<div class="bgimg-4" id="real">
 		 	<div class="caption">
-		    	<span class="border" style="font-size: 36px; color: #f7f7f7;">Mes réalisations</span>
+		    	<span class="border realisation" style="font-size: 36px; color: #f7f7f7;">Mes réalisations</span>
 			</div>
 		</div>
 
 		<!--bloc des réalisations-->
 		<div class="real">
 			<!--BIRAUTO-->
-			<div class="bloc-img img1">
+			<div class="bloc-img img1 col">
 				<a href="file:///E:/Birauto/contact.html">	
 				    <div class="overlay">
 	       				<div class="text">Birauto <br/>Projet scolaire <br/> HTML/CSS <br/> Réalisation de page contact <br>et renseignements  
@@ -118,7 +138,7 @@
 	  		</div>
 
 			<!--S&D-->
-	  		<div class="bloc-img img2">
+	  		<div class="bloc-img img2 col">
 			  	<a href="#" title="Site bientôt disponible !">
 				    <div class="overlay">
 		       			<div class="text">Sweet and Delicious <br/> Projet personnel <br/> HTML/CSS/PHP <br/> Création de mon site de pâtisserie  
@@ -128,7 +148,7 @@
             </div>
             
             <!--Cour'ag-->
-			<div class="bloc-img img3">
+			<div class="bloc-img img3 col">
 				<a href="#" title="Site bientôt disponible !">
 				    <div class="overlay">
 	       				<div class="text">Cour'ag <br/>Projet personnel <br/> HTML/CSS/PHP <br/> Création d'un site de présentation de <br>mon association sportive  
@@ -138,7 +158,7 @@
               </div>
               
               <!--MY COOKIES 974-->
-			<div class="bloc-img img4">
+			<div class="bloc-img img4 col">
 				<a href="#" title="Site bientôt disponible !">	
 				    <div class="overlay">
 	       				<div class="text">My Cookies 974 <br/>Projet personnel <br/> HTML/CSS/PHP <br/> Réalisation d'un site pour une <br> entreprise de vente en ligne  
@@ -148,10 +168,19 @@
               </div>
               
               <!--LE POIVRIER-->
-			<div class="bloc-img img5">
+			<div class="bloc-img img5 col">
 				<a href="http://83.198.215.203/poivrier/">	
 				    <div class="overlay">
 	       				<div class="text">Le Poivrier <br/>Projet d'entraînement <br/> HTML/CSS/PHP <br/> Réalisation d'un site de restauration <br> en ligne  
+	       				</div>
+	  				</div>
+	  			</a>
+	  		</div>
+			    <!--STAGE-->
+			<div class="bloc-img img5 col">
+				<a href="http://83.198.215.203/poivrier/">	
+				    <div class="overlay">
+	       				<div class="text">Simplification de Dolibarr <br/>Projet de stage <br/> Symfony/API REST/PHP/Tiwg <br/> Simplification des interfaces client  <br>et produit de Dolibarr <br> (ajouter/modifier/supprimer)  
 	       				</div>
 	  				</div>
 	  			</a>
@@ -166,11 +195,11 @@
 		</div>
 
 			<div style="position:relative;">
-                <div style="color:#ddd;background-color:rgb(239, 239, 239);padding:50px 80px;text-align: justify;">
+                <div style="color:#ddd;background-color:rgb(239, 239, 239);padding:50px 10px;text-align: justify;">
 					
-					<div class="service">
+					<div class="blocService">
 						
-						<div class="siteVitrine">
+						<div class="service siteVitrine">
 							<h3>Création de site vitrine</h3>
 							<h5>Developpé sur mesure (codage à la main)</h5>
 							<hr>
@@ -194,7 +223,7 @@
 							</ul>
 						</div>
 
-						<div class="refonte">
+						<div class="service refonte">
 							<h3>Refonte de votre site</h3>
 							<h5>Developpé sur mesure (codage à la main)</h5>
 							<hr>
@@ -226,8 +255,8 @@
 			</div>
 		</div>
 
-		<div style="position:relative;">
-			<div style="color:#ddd;background-color:rgb(239, 239, 239);text-align:center;padding:50px 80px 10px 80px;text-align: justify;">
+		<div style="position:relative;" class="contenuContact">
+			<div style="color:#ddd;background-color:rgb(239, 239, 239);text-align:center;padding:50px 80px 10px 80px;text-align: justify;" class="contact">
 
 				<?php
 
@@ -258,29 +287,46 @@
 
 				<!--formulaire-->
 				<form method="POST">
-					<input type="text" placeholder="Nom" size="30" maxlength="15" class="champ" name="nom"><br/>
-					<input type="email" placeholder="Adresse mail" size="30" maxlength="15" class="champ" name="mail" /><br/>
-					<input type="text" placeholder="Objet" size="30" maxlength="10" class="champ" name="objet"/><br/>
-					<textarea name="message" placeholder="Votre message" class="champ" name="message"></textarea> 
+					<div class="form-group">
+						<label for="exampleInputEmail1" style="color: black;">Nom</label>
+						<input type="text" class="form-control col" id="exampleInputEmail1" aria-describedby="emailHelp"  placeholder="Nom" name="nom">
+					</div>
+					<div class="form-group">
+						<label for="exampleInputEmail1" style="color: black;">Adresse mail</label>
+						<input type="email" class="form-control col" id="exampleInputEmail1" placeholder="exemple@gmailcom" name="mail">
+					</div>
+					<div class="form-group">
+						<label for="exampleInputEmail1" style="color: black;">Objet</label>
+						<input type="text" class="form-control col" id="exampleInputEmail1" aria-describedby="emailHelp" size="30" maxlength="15" placeholder="Objet" name="objet">
+					</div>
+					<div class="form-group">
+						<label for="exampleFormControlTextarea1" style="color: black;">Message</label>
+						<textarea class="form-control col" id="exampleFormControlTextarea1" rows="3" placeholder="Votre message" name="message"></textarea>
+					</div>
 
-					<br>
-					<input type="submit" value="Envoyer" class="button2" name="submit">
+					<button type="submit" class="btn btn-primary" style="background-color: #76cbcc;border-color: #76cbcc;" name="submit">Envoyer</button>
 				</form>
-				<!--bouton-->
 				
 				<?php     
 					if(isset($msg)){
-						echo $msg;
+						echo "<p style='margin-left:0;'>".$msg."</p>";
 					}
 				?>
 
-		    	<p>andrea.bigot974@gmail.com</p><br/>
-				<hr>
+
+
+		    	<p class="mail">andrea.bigot974@gmail.com</p><br/>
 				
-				<!-- mettre footer fusionné-->
-				<p class="footer">Site crée par Andréa BIGOT | <a href="#"> Mentions légales</a></p>
+				
+				<!-- footer -->
+				<?php include('footer.php'); ?>
+				
 			</div>
 		</div>
+
+		<!-- Javascript à la fin pour pas ralentir le temps de réponse d'affichage chez le client (tout sera chargé d'abbord en haut) -->
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>

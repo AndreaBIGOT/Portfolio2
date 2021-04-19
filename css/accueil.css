@@ -1,107 +1,4 @@
-body, html {
-    height: 100%;
-    margin: 0;
-    font: 400 15px/1.8 "Lato", sans-serif;
-    color: #777;
-  }
-  
-  html{
-    scroll-behavior: smooth;
-  }
-  
-  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-  }
-  .bgimg-1 {
-    background-image: url("../media/test3.jpg");
-    min-height: 70%;
-    opacity: 0.75;
-  }
-  
-  .bgimg-2 {
-    background-color: rgb(239, 239, 239);;
-    min-height: 400px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    box-shadow: inset 0px 5px 10px #80808040;
-  }
-  
-  .bgimg-3 {
-    background-image: url("../media/test4.jpg");
-    min-height: 400px;
-    opacity: 0.75;
-  }
-  
-  .bgimg-4 {
-    background-image: url("../media/test5.jpg");
-    min-height: 400px;
-    opacity: 0.75;
-  }
-
-  .bgimg-5{
-    background-color: white;
-    min-height: 400px;
-    opacity: 0.75;
-  }
-  
-  .caption {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: #000;
-  }
-  
-  .caption span.border {
-    color: #fff;
-    padding: 18px;
-    font-size: 38px;
-    letter-spacing: 8px;
-    text-shadow: 3px 3px 3px black;
-  }
-  .caption span.borderContact {
-    color: black;
-    padding: 18px;
-    font-size: 38px;
-    letter-spacing: 8px;
-
-  }
-  h3 {
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    font: 20px "Lato", sans-serif;
-    color: #111;
-  }
-  
-  /* Turn off parallax scrolling for tablets and phones */
-  @media only screen and (max-device-width: 1024px) {
-      .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
-          background-attachment: scroll;
-      }
-      
-  }
-  
-  p{
-    text-align: center;
-    margin-top: 0px;
-    font-size: 18px;
-    color: black;
-    margin-top: 34px;
-    margin-left: 50px;
-  }
-
-  
-  
-  
-  
-  
-  /***************************************
+/***************************************
   ****************************************
   ************** REALISATION *************
   ****************************************
@@ -173,6 +70,7 @@ body, html {
     background: url('../media/birauto.jpg');
     background-size: 100% ;
     background-position: center ;
+    background-repeat: no-repeat;
     
   }
   
@@ -181,6 +79,7 @@ body, html {
     background: url('../media/s&d.jpg');
     background-size: 100% ;
     background-position: center ;
+    background-repeat: no-repeat;
     
   }
 
@@ -189,6 +88,7 @@ body, html {
     background: url('../media/poivrier.jpg');
     background-size: 100% ;
     background-position: center ;
+    background-repeat: no-repeat;
     
   }
   .img4{
@@ -196,6 +96,7 @@ body, html {
     background: url('../media/mycookies.jpg');
     background-size: 100% ;
     background-position: center ;
+    background-repeat: no-repeat;
     
   }
   .img3{
@@ -203,6 +104,7 @@ body, html {
     background: url('../media/courage.jpg');
     background-size: 100% ;
     background-position: center ;
+    background-repeat: no-repeat;
     
   }
   
@@ -229,15 +131,10 @@ body, html {
     text-align: center;
   }
   
-  textarea{
-    -webkit-border-radius: 5px;
-    background-color: #80808040;
-    border: none;
-    box-shadow: inset 3px 3px 3px grey;
-    width: 32%;
-    height: 150px;
-    padding:10px;
-  }
+ .form-control{
+    width: 400px;
+    margin: auto;
+  } 
   
   .champ::placeholder{
       color: black;
@@ -270,60 +167,21 @@ body, html {
                   
   }
 
+  input[type="email"], input[type="password"], input[type="text"]  {
+    width: 400px;
+    margin: auto;
+}
+
+.mail{
+  margin-left: 0;
+}
+
+.footer{
+  margin-left: 0;
+}
 
 
-  /***************************************
-  ****************************************
-  ************** NAVIGATION **************
-  ****************************************
-  ****************************************/
-  
-  .menu{
-      margin-top: 13px;
-      margin: auto;
-  text-align: center;
-  }
-  
-  .menu a {
-      color: gray;
-      font-size: 18px;
-      margin-left: 20px;
-      position: relative;
-      text-decoration: none;
-  }
-  
-  .menu a::after{
-      content: '';
-      /*transform-origin: 0 0; */
-      transform: scaleX(0);
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      height: 3px; 
-      background: gray;
-      z-index: -1;
-      opacity: 0.8;
-      transition: transform .3s;
-  }
-  
-  
-  
-  .menu a:hover::after{
-      transform: scaleX(1);
-  }
-  
 
-
-  /***************************************
-  ****************************************
-  ************** FOOTER ******************
-  ****************************************
-  ****************************************/
-
-  .footer{
-      margin-top:20px;
-  }
 
 
 
@@ -332,18 +190,23 @@ body, html {
   ************** A PROPOS ****************
   ****************************************
   ****************************************/
-.identity{
-    /* border: solid 2px black; */
+ .identity{ 
     text-align: center;
-    width: 50%;
-    height: 500px;
+    height: auto;
     margin: auto;
     padding-top: 30px;
     background-color: white;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 50px; 
+    max-width: 1000px; 
   }
-  
+/* 
+  @media all and (max-width:600px){
+    
+  } */
+
+
+  /*
   .right img{
     width: 80%;
     margin-top: 50px;
@@ -353,21 +216,19 @@ body, html {
     float: left;
     color: black;
     width: 475px;
-    height: auto;
+    height: auto; */
    /* border: 2px solid black; */
-  }
+  /* }
 
-  .left p{
-    font-size: 21px;
-  }
+ 
   
   .right{
     float: right;
     color: black;
     width: 400px;
-    height: auto;
+    height: auto; */
     /* border: 2px solid black; */
-  }
+  /* }
 
  .right ul{
       color: black;
@@ -380,31 +241,39 @@ body, html {
 
   h1{
     margin-bottom: 0px;
-  }
+  } */
+
+.list-group-item{
+  border: none;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.list-group-item a{
+  color: black;
+  text-decoration: revert;
+}
+
+.card-body .card-title{
+  text-align: center;
+}
+
+.col-sm-6 .card{
+  border: none;
+}
+
+.card-body .card-text{
+  font-size: 22px;
+  line-height: inherit;
+  margin: auto;
+}
+
+.card-title img{
+  width: 245px;
+}
 
 
 
-  /***************************************
-  ****************************************
-  ************** HAUT DE PAGE ************
-  ****************************************
-  ****************************************/
-  #scrollTop{
-    position: fixed;
-    width: 25px;
-    height: 25px;
-    bottom: 50px;
-    right: 30px;
-    z-index: 1;
-  }
-
-  #scrollTop img{
-    float: right;
-    background-color: white;
-    border-radius: 100px;
-    box-shadow: 2px 2px 5px #80808061;
-    width: 42px;
-  }
 
 
 
@@ -435,7 +304,15 @@ body, html {
     margin: auto;
     border-spacing: 22px;
   }
-  
+
+  .competence{
+    color:#ddd;
+    background-color:rgb(239, 239, 239);
+    padding:50px 80px;
+    text-align: justify;
+    padding-right: 0;
+    padding-left: 0;
+  }
 
 
 
@@ -446,11 +323,11 @@ body, html {
   ****************************************
   ****************************************/
 
-  .siteVitrine, .refonte{
+  .service{
     width: auto;
     height: auto;
     display: inline-table;
-    margin-right: 50px;
+    margin: 15px;
     min-height: 495px;
     
     background-color: #ffffff;
@@ -473,7 +350,7 @@ body, html {
     height: 1px;
   }
 
-  .service{
+  .blocService{
     text-align: center;
   }
 
@@ -526,3 +403,28 @@ body, html {
   .refonte .hr2{
     margin-top: 70px;
   }
+
+
+
+    /* RESPONSIVE */
+
+
+  @media all and (max-width:600px){
+    .contenuContact .contact, .real{
+      padding: 10px!important;
+    }
+
+     .img1, .img2, .img3, .img4, .img5{
+      padding: 0;
+      margin: 0;
+    } 
+    
+  }
+  /* @media all and (min-width:600px){
+    .img1, .img2, .img3, .img4, .img5{
+      padding: 0;
+      margin: 0;
+    } 
+    
+  }*/
+

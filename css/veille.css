@@ -1,0 +1,116 @@
+.article{
+    border: solid black 1px;
+    display: inline-block;
+    width: 375px;
+    height: 218px;
+    margin-right: 30px;
+    background-color: white;
+}
+
+.article img{
+    width: 375px;
+    height: 218px;
+    margin-bottom: 0px;
+}
+
+.article h2{
+    color: black;
+    background-color: white;
+    margin-top: 0px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* SUJET 1 VEILLE TECHNO */
+.caption span.border {
+    letter-spacing: 4px!important;
+}
+
+
+
+
+/* PARTIE SOLUTION */
+.solution{
+    width: auto;
+    height: auto;
+    display: inline-table;
+    margin: 15px;
+    min-height: 495px;
+    
+    background-color: #ffffff;
+    border-radius: 12px;
+  }
+
+  .soluPerso{
+    box-shadow: 2px 2px 10px #80808026;
+    color: #76cbcc;
+  }
+
+  .soluPro{
+    box-shadow: 2px 2px 10px #80808026;
+    color: #b7a7c6;
+  }
+
+  .soluPerso hr{
+    background-color: #76cbcc;
+    border: none;
+    height: 1px;
+  }
+
+  .solutionPerso{
+    text-align: center;
+  }
+
+  .soluPerso ul, .soluPro ul{
+    list-style:none;
+    color: black;
+    padding:0;
+  }
+ 
+  .soluPerso h5, .soluPro h5{
+    color: black;
+    margin: 0;
+  } 
+ 
+  .soluPerso h3, .soluPro h3{
+    padding: 20px;
+    margin-bottom: 0px;
+    
+  }
+  .soluPerso h3{
+    color:white;
+    background-color: #76cbcc;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .soluPro h3{
+    color:white;
+    background-color: #b7a7c6;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+
+  .soluPerso p, .soluPro p{
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+
+  .soluPro hr{
+    margin-top: 8px;
+  }
+
+  .soluPro .hr2,.soluPro hr{
+    background-color: #b7a7c6;
+    border: none;
+    height: 1px;
+  }
+
+  .soluPro .hr2{
+    margin-top: 70px;
+  }
