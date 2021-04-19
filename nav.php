@@ -41,11 +41,11 @@
           Accueil
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="accueil.php#moi">A propos</a>
-          <a class="dropdown-item" href="accueil.php#skill">Compétences</a>
-          <a class="dropdown-item" href="accueil.php#real">Réalisations</a>
-          <a class="dropdown-item" href="accueil.php#service">Services</a>
-          <a class="dropdown-item" href="accueil.php#contact">Contact</a>
+          <a class="dropdown-item" href="index.php#moi">A propos</a>
+          <a class="dropdown-item" href="index.php#skill">Compétences</a>
+          <a class="dropdown-item" href="index.php#real">Réalisations</a>
+          <a class="dropdown-item" href="index.php#service">Services</a>
+          <a class="dropdown-item" href="index.php#contact">Contact</a>
         </div>
       </li>
       <li class="nav-item dropdown">

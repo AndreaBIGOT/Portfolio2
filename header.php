@@ -1,4 +1,4 @@
-<a href="accueil.php">
+<a href="index.php">
 <div class="bgimg-1">
 	<div class="caption">
 		<span class="border ">Andréa BIGOT</span>
