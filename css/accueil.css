@@ -51,9 +51,7 @@
   .bloc-img:hover
   {
     transform: scale(1.02);
-    opacity: 0.6;
-      filter: alpha(opacity=50);
-      cursor: pointer;
+    cursor: pointer;
   }
   
   .real{
@@ -102,6 +100,15 @@
   .img3{
     
     background: url('../media/courage.jpg');
+    background-size: 100% ;
+    background-position: center ;
+    background-repeat: no-repeat;
+    
+  }
+
+  .img6{
+    
+    background: url('../media/dolibarr.jpg');
     background-size: 100% ;
     background-position: center ;
     background-repeat: no-repeat;

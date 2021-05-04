@@ -1,10 +1,10 @@
 <?php
 					$servername = 'localhost';
-					$username = 'root';
-					$password = '';
+					$username = 'na3_mysql';
+					$password = 'ooy4wohp';
 					
 					try{
-						$conn = new PDO("mysql:host=$servername;dbname=portfolio", $username, $password);
+						$conn = new PDO("mysql:host=$servername;dbname=na3_mysql", $username, $password);
 				
 						$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 					}

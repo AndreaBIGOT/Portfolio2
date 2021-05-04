@@ -1,33 +1,3 @@
-<!-- menu
-<div style=";">
-    <div class="menu ">
-        <a href="accueil.php"> <img src="media/home.png" alt="accueil" style="width:30px;"></a>
-        <a href="accueil.php#moi">    A propos	   </a>
-        <a href="accueil.php#skill">  Compétences </a>
-        <a href="accueil.php#real">   Réalisations</a>
-        <a href="accueil.php#service">Services	   </a>
-        <a href="accueil.php#contact">Contact	   </a>
-        
-        <div class="menuDeroulant">
-            <a href="veilleTechno.php" class="veille">Veilles technologiques </a>
-                <div class="deroulant">
-                    <a href="">Le référencement </a>
-                    <a href="">La 5G </a>
-                    <a href="">Puce </a>
-                </div>
-        </div>
-        <div class="menuDeroulant">
-            <a href="veilleJuridique.php" class="veille">Veilles juridiques </a>
-                <div class="deroulant">
-                    <a href="">test </a>
-                    <a href="">test </a>
-                </div>
-        </div>
-        
-    </div>
-</div> -->
-
-
 <nav class="navbar navbar-expand-md navbar-light bg-light">
   <a class="navbar-brand" href="#" style="color:black;"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,7 +19,7 @@
         </div>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <!--  href="veilleTechno.php" -->
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Veilles technologiques
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -61,8 +31,8 @@
           Veilles juridiques
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Référencement</a>
-          <a class="dropdown-item" href="#">5G</a>
+          <a class="dropdown-item" href="veilleJuriSujet1.php">L'obligation de collaboration (client)</a>
+          <a class="dropdown-item" href="#">Les conditions d’exonération de la responsabilité des prestataires</a>
           <a class="dropdown-item" href="#">Puce</a>
         </div>
       </li>

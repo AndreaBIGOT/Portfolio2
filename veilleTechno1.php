@@ -4,6 +4,9 @@
 <head>
     <?php include('head.php'); ?>
     <link rel="stylesheet" href="css/veille.css" />
+    <link rel="stylesheet" href="css/accueil.css" />
+    <link href="media/fonts/fontTemplateSkill.css" rel="stylesheet">
+    <link href="media/fonts/fontTemplateSkill2.css" rel="stylesheet">
 
     <title>Les dangers des écrans</title>
 </head>
@@ -14,12 +17,59 @@
     <?php include('header.php'); ?>
 
 
-    <?php include('nav.php'); ?>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+		<a class="navbar-brand" href="#" style="color:black;"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse menu" id="navbarNavDropdown" style="border: none;">
+			<ul class="navbar-nav">
+
+                <li class="nav-item">
+					<a class="nav-link" href="index.php">Accueil</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="veilleTechno1.php">Veille technologique</a>
+				</li>
+                <li class="nav-item">
+					<a class="nav-link" href="veilleJuriSujet1.php">Veille juridique</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Epreuves BTS SIO
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="E4.php">E4</a>
+						<a class="dropdown-item" href="E6.php">E6</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="stage.php">Stage</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
     <!--bloc veille-->
     <div class="bgimg-2">
         <div class="info">
-            <h1>Quelles sont les conséquences du travail sur écran sur la santé ?</h1>
+            <h1>Qu'est-ce-qu'une veille technologique ?</h1>
+            <p>Une veille consiste à s'informer de façon systématique sur les techniques les plus récentes. <br>
+                Etant en BTS SIO, il est obligatoire d'effectuer deux veilles: une veille technologique et une veille juridique.<br>
+                Le monde de la technologie évolue de plus en plus.
+                Il est donc indispensable pour un/e étudiant/e ou un/e profesionnel/le dans ce secteur de rester <br>
+                informé/e continuellement de ce qu’il se passe dans le domaine où il/elle est voué/e à travailler.</p>
+
+            <h1>Les outils utilisés</h1>
+        </div>
+    </div>
+    <div class="bgimg-3">
+        <div class="caption">
+            <span class="border" style="font-size: 36px; color: #f7f7f7;">Quelles sont les conséquences du travail sur écran sur la santé ?</span>
+        </div>
+    </div>
+    <div style="position:relative;">
+        <div style="color:#ddd;background-color:rgb(239, 239, 239);padding:50px 80px;text-align: center;" class="competence">
             <p>De nos jours, le travail à distance est partout. Les métiers du numérique, l’évolution des nouvelles technologies ou encore la situation sanitaire actuelle nous poussent à travailler à domicile.
                 Pour nous les développeurs cela ne change pas grand-chose. Nous restons toute la journée devant nos écrans, que ce soit sur notre lieu de travail ou chez nous.
                 C’est pourquoi j’ai décidé de m’informer sur ce sujet. <br>
@@ -32,9 +82,12 @@
     <div id="scrollTop">
         <a href="#top"> <img src="media/top2.png" alt="Haut de page" title="Haut de page"> </a>
     </div>
+    <div id="scrollTop" style="right: 85px!important;">
+        <a href="index.php"> <img src="media/home.png" alt="Accueil" title="Retour à l'accueil"> </a>
+    </div>
 
 
-    <div class="bgimg-3">
+    <div class="bgimg-4">
         <div class="caption">
             <span class="border" style="font-size: 36px; color: #f7f7f7;">Les problèmes de santé chez les développeurs</span>
 
@@ -76,24 +129,24 @@
                     <h3>Physique</h3>
 
                     <ul class="pbSantePhysiqueListe" style="margin: 5px;">
-                        <li>- dos bossu (position devant l’ordinateur)</li>
-                        <li>- yeux secs et rouges (temps passé devant l’écran)</li>
-                        <li>- varices (manque activité)</li>
-                        <li>- gonflement des poignets (mouvements répétitifs)</li>
-                        <li>- pilosité excessive oreilles nez (mauvaise qualité de l’air)</li>
-                        <li>- peau pâle (manque de lumière naturelle)</li>
-                        <li>- eczéma (stress)</li>
-                        <li>- syndrome de la vision informatique</li>
+                        <li>- Dos bossu (position devant l’ordinateur)</li>
+                        <li>- Yeux secs et rouges (temps passé devant l’écran)</li>
+                        <li>- Varices (manque activité)</li>
+                        <li>- Gonflement des poignets (mouvements répétitifs)</li>
+                        <li>- Pilosité excessive oreilles nez (mauvaise qualité de l’air)</li>
+                        <li>- Peau pâle (manque de lumière naturelle)</li>
+                        <li>- Eczéma (stress)</li>
+                        <li>- Syndrome de la vision informatique</li>
                     </ul>
                     <hr>
                     <p>Différentes pathologies:</p>
                     <ul class="pbSanteMentalListe">
-                        <li>- névralgies cervico-brachiales (compression, ou une irritation, d’un nerf du cou <br> qui se prolonge le long du bras. La clavicule, l’épaule ou le haut du dos <br> peuvent aussi faire l’objet de douleurs.)</li>
-                        <li>- des lombalgies (douleurs localisées au niveau du rachis lombaire)</li>
-                        <li>- des scolioses (déformation de la colonne vertébrale)</li>
-                        <li>- des cyphoses (déformation convexe de la colonne vertébrale)</li>
-                        <li>- des cervicalgies (torticolis)</li>
-                        <li>- des lordoses ( formation d’un creux prononcé de la colonne vertébrale, <br> dans le bas du dos ou au niveau du cou)</li>
+                        <li>- Névralgies cervico-brachiales (compression, ou une irritation, d’un nerf du cou <br> qui se prolonge le long du bras. La clavicule, l’épaule ou le haut du dos <br> peuvent aussi faire l’objet de douleurs.)</li>
+                        <li>- Des lombalgies (douleurs localisées au niveau du rachis lombaire)</li>
+                        <li>- Des scolioses (déformation de la colonne vertébrale)</li>
+                        <li>- Des cyphoses (déformation convexe de la colonne vertébrale)</li>
+                        <li>- Des cervicalgies (torticolis)</li>
+                        <li>- Des lordoses ( formation d’un creux prononcé de la colonne vertébrale, <br> dans le bas du dos ou au niveau du cou)</li>
                     </ul>
                 </div>
 
@@ -101,12 +154,12 @@
                     <h3>Mental</h3>
 
                     <ul style="margin: 5px;">
-                        <li>- dépression (se couper du réel pour se réfugier dans le monde virtuel)</li>
-                        <li>- anxiété</li>
-                        <li>- comportement agressif</li>
-                        <li>- troubles de l'humeur (provoqués par le cerveau qui peut être attiré <br> par des sources d’information plurielles et volatiles <br> et qui aura du mal à se focaliser sur une dimension particulière.)</li>
-                        <li>- déséquilibres alimentaires (peut favoriser l’apparition de problèmes de <br> perte de poids, de surpoids ou d’obésité à cause du manque d’activité physique <br>et/ou de l’exposition à la lumière artificielle la nuit <br>qui peut altérer différents processus biologiques.</li>
-                        <li>- problèmes de sommeil (la lumière bleue émise par les écrans <br> contribue à bloquer la production de mélatonine et favorise ainsi l’éveil)</li>
+                        <li>- Dépression (se couper du réel pour se réfugier dans le monde virtuel)</li>
+                        <li>- Anxiété</li>
+                        <li>- Comportement agressif</li>
+                        <li>- Troubles de l'humeur (provoqués par le cerveau qui peut être attiré <br> par des sources d’information plurielles et volatiles <br> et qui aura du mal à se focaliser sur une dimension particulière.)</li>
+                        <li>- Déséquilibres alimentaires (peut favoriser l’apparition de problèmes de <br> perte de poids, de surpoids ou d’obésité à cause du manque d’activité physique <br>et/ou de l’exposition à la lumière artificielle la nuit <br>qui peut altérer différents processus biologiques.</li>
+                        <li>- Problèmes de sommeil (la lumière bleue émise par les écrans <br> contribue à bloquer la production de mélatonine et favorise ainsi l’éveil)</li>
                     </ul>
                 </div>
             </div>
@@ -121,7 +174,7 @@
         </div>
     </div>
 
-    <div class="bgimg-4">
+    <div class="bgimg-3">
         <div class="caption">
             <span class="border" style="font-size: 36px; color: #f7f7f7;">Les solutions</span>
         </div>
@@ -164,7 +217,7 @@
         </div>
     </div>
 
-    <div class="bgimg-3">
+    <div class="bgimg-4">
         <div class="caption">
             <span class="border" style="font-size: 36px; color: #f7f7f7;">Les bénéfices du bien-être au travail</span>
         </div>
@@ -174,8 +227,8 @@
         <div style="color:#ddd;background-color:rgb(239, 239, 239);padding:50px 80px;text-align: center;" class="competence">
             <p>Mettre ces solutions en place crée des bénéfices sur le long terme. Cela nous rend plus concentrés, plus efficaces et productifs. <br>
                 Prenons l’exemple de Google, le géant a installé un espace de relaxation et des capsules dédiées à des siestes réparatrices. Les repas sont à volonté et il y a même une salle de sport. <br> De plus, Google se base sur une logique 80/20 : 80 % du travail sont consacrés à l’activité principale de l’employé et 20 % sont dédiés à des projets individuels. </p>
-            <p style="margin-bottom: 50px;"> 
-            <u>Source:</u>
+            <p style="margin-bottom: 50px;">
+                <u>Source:</u>
                 <a href="https://www.institut-f2i.fr/quand-les-metiers-du-web-se-pensent-aussi-en-fonction-du-bien-etre-au-travail/">Article du institut-f2i.fr sur le bien-être des employés </a> <br>
                 <a href="https://www.openwork.co/fr/blog/bien-etre-des-employes-et-productivite-une-equation-couteuse-le-cas-de-google">Article d'openwork.co sur Google</a> <br>
                 <a href="https://www.manager-go.com/ressources-humaines/bien-etre-au-travail.htm"> Article du manager-go.com sur le bien-être au travail </a>
@@ -188,26 +241,12 @@
     </div>
 
 
+	<!-- Javascript à la fin pour pas ralentir le temps de réponse d'affichage chez le client (tout sera chargé d'abbord en haut) -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	<!-- Bootstrap Dropdown Hover JS -->
+	<script src="js/bootstrap-dropdownhover.min.js"></script>
 
 </body>
 
