@@ -60,7 +60,7 @@
                             <p class="card-text">Durant ma deuxième année, j'ai eu l'opportunité d'effectuer un stage en développement web en sein de l'entreprise LAVA RUN.<br>
                                 Il s'agit d'une PME, plus précisément une SAS (Société par Actions Simplifiée) crée en 2015. <br> Elle se trouve à Petite-Ile à la Réunion. <br>
                                 Je devais simplifier Dolibarr en ajoutant des fonctionnalités simples pour l’utilisateur. <br> 
-                                Ce dernier doit pouvoir gérer ses clients et sesproduits. Pour cela, il doit voir la liste des clients/produits, voir leurs informations, les modifier, les supprimer et les ajouter
+                                Ce dernier doit pouvoir gérer ses clients et ses produits. Pour cela, il doit voir la liste des clients/produits, voir leurs informations, les modifier, les supprimer et les ajouter
                             </p>
                             <a href="media/rapport.pdf"><input type="submit" value="Rapport de stage" class="btn btn-outline-primary" style="margin-top: 20px;"></a>
 

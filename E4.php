@@ -67,8 +67,8 @@
                                 <li>- Traiter les imprévus qui caractérisent de nombreuses activités du domaine</li>
                             </ul>
                             </p>
-                            <a href="#"><input type="submit" value="Situation professionnelle 1" class="btn btn-outline-primary"></a>
-                            <a href="#"><input type="submit" value="Situation professionnelle 2" class="btn btn-outline-primary"></a>
+                            <a href="media/fiche_symfony.pdf"><input type="submit" value="Situation professionnelle 1" class="btn btn-outline-primary"></a>
+                            <a href="media/fiche_electron.pdf"><input type="submit" value="Situation professionnelle 2" class="btn btn-outline-primary"></a>
 
                         </div>
                     </div>

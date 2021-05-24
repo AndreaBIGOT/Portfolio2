@@ -61,6 +61,7 @@
                 informé/e continuellement de ce qu’il se passe dans le domaine où il/elle est voué/e à travailler.</p>
 
             <h1>Les outils utilisés</h1>
+            <p>Google Alerts, abonnement à la newsletter de <a href="https://www.programmez.com/">Programmez</a>  et de <a href="https://medium.com/">Medium</a>  </p>
         </div>
     </div>
     <div class="bgimg-3">
@@ -197,6 +198,7 @@
                         <li>- Avoir 7/8h de sommeil par nuit</li>
                         <li>- Respecter la règle 20-20-20: prendre 20 secondes de pause <br> en regardant à 20 pieds toutes les 20 minutes</li>
                         <li>- Eviter les écrans au moins 2h avant le coucher</li>
+                        <li>- Porter des lunettes</li>
                     </ul>
                 </div>
 
